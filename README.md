@@ -89,7 +89,7 @@ boxplot!(singers,:VoicePart,:Height,marker=(0.3,:orange,stroke(2)))
 
 ![](https://juliaplots.github.io/examples/img/pyplot/pyplot_example_30.png)
 
-Asymmetric violin plots can be created using the `side` keyword (`:both` - default,`:right` or `:left`), e.g.:
+Asymmetric violin plots can be created using the `side` keyword (`:both` - default -,`:right` or `:left`), e.g.:
 
 ```julia
 singers_moscow = deepcopy(singers)
